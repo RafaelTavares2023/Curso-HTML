@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias de HTML5</title>
+</head>
+<body>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes
+    ou simplismente aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pp.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/mm.jpg" type="image/jpg">
+        <img src="imagens/gg.jpg" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzir audio</h1>
+    <p>vamos aprender a reproduzir audio em HTML5</p>
+    <audio src="midia/X2Download.app-MC Poze do Rodo - Ai Calica ft. Vulgo FK.mp4" controls autoplay></audio>
+    <!--MP# - WAV OGG-->
+    <audio preload="metadata">
+        <source src="midia/X2Download.app-MC Poze do Rodo - Ai Calica ft. Vulgo FK.mp4" type="audio/mp4">
+    </audio>
+    
+</body>
+</html>
