@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    
+    <style>
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .nome {
+            background-color: aqua;
+        }
+
+        .idade {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <table>
+
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="profissao"> 
+        </colgroup>
+
+        <caption>Cadastro</caption>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">profissão</th>
+        </tr>
+        <tr>
+            <td>Bianca Kreuts</td>
+            <td>Feminino</td>
+            <td>23</td>
+            <td>Vendedora</td>
+        </tr>
+
+        <tr>
+            <td>Bianca Kreuts</td>
+            <td>Feminino</td>
+            <td>23</td>
+            <td>Vendedora</td>
+        </tr>
+
+        <tr>
+            <td>Bianca Kreuts</td>
+            <td>Feminino</td>
+            <td>23</td>
+            <td>Vendedora</td>
+        </tr>
+    </table>
+
+
+    
+</body>
+</html>
